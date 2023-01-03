@@ -45,3 +45,11 @@ if(strcmp(op,"=")==0)
     
   }
 
+// input.txt
+// + a b t1
+// - c d t2
+// * t1 t2 t
+// = t ? x
+
+// gcc 11anaghasethu-p14.c
+// ./a.out
