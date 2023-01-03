@@ -75,3 +75,11 @@ follow(a[i][0]);
 }
 }
 }
+// Enter the no of prooducttons:5
+// Enter the productions:
+// S=AbCd
+// A=Cf
+// C=gE
+// E=h
+// Enter the etemets whose ftsrt & follow Is to be found:S
+// Enter the etemets whose ftsrt & follow Is to be found:A
