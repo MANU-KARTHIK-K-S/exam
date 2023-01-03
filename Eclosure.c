@@ -111,3 +111,34 @@ void print_e_closure(int i)
         printf("q%d,",e_closure[i][j]);
         printf("}");
 }
+// Enter
+// 3
+// NOTE: -
+// NOTE: -
+// Enter the alphabets
+// 1
+// 0
+// e
+
+// Enter
+// 3
+// Enter
+// 5
+// NOTE: -
+// NOTE:-
+// Enter
+// 03
+// the number of alphabets?
+// [ use letter e as epstlon]
+// [e must be last character tt Is present]
+// alphabets?
+// the number of states?
+// no of transttton?
+// [Transition ts in the form-> qno alphabet qno]
+// [States number must be greater than zero]
+// transttton?
+// 1 0 1
+// 1 e 2
+// 2 1 2
+// 2 e 3
+// 3 0 3
