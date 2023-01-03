@@ -198,3 +198,6 @@ void main()
  }
 
 }
+// gcc 11anaghasethu-p10.c
+// ./a.out
+// Enter the Input expression:t+t
