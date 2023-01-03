@@ -311,7 +311,7 @@ flag=1;
 
 OUTPUT: CONVERT SUBSTRING abc-ABC
 [CSE@localhost ~]$ lex lexl.l
-[CSE@localhost ~]$ cc lex.yy.c
+[CSE@localhost ~]$ cc lex.yy.c  or gcc lex.yy.c -lfl
 [CSE@localhost ~]$ ./a.out
 hiabc
 hiABC
