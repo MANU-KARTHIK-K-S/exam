@@ -74,3 +74,7 @@ void check()
            i=i-2;
          }
    }
+
+// gcc 
+// enter tnput string
+// id+id*id+id
