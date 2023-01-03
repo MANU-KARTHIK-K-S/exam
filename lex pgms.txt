@@ -308,6 +308,40 @@ flag=1;
 }
 
 //********************************************
+WORD org
+%{
+#include<stdio.h>
+int count = 0;
+%}
+
+%%
+[ \t\n]+  /* ignore whitespace */
+.         /* ignore other characters */
+
+%%
+
+int main()
+{
+    yylex();
+    printf("Number of words: %d\n", count);
+    return 0;
+}
+
+int yylex()
+{
+    int c;
+    while((c = getchar()) != EOF)
+    {
+        if(c == ' ' || c == '\t' || c == '\n')
+        {
+            count++;
+        }
+    }
+    return 0;
+}
+
+
+//********************************************
 
 OUTPUT: CONVERT SUBSTRING abc-ABC
 [CSE@localhost ~]$ lex lexl.l
